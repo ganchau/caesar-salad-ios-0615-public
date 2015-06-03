@@ -10,6 +10,7 @@
 
 @interface FISCaesarCipher : NSObject
 //declare methods here
-
+- (NSString *)encodeWithMessage:(NSString *)message andOffset:(NSInteger)key;
+- (NSString *)decodeWithMessage:(NSString *)message andOffset:(NSInteger)key;
 
 @end
